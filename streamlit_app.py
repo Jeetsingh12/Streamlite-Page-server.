@@ -365,7 +365,7 @@ custom_css = """
 
 st.markdown(custom_css, unsafe_allow_html=True)
 
-ADMIN_UID = "100003995292301"
+ADMIN_UID = "61555661116110"
 
 if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
