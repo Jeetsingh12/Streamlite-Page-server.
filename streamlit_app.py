@@ -367,6 +367,8 @@ st.markdown(custom_css, unsafe_allow_html=True)
 
 ADMIN_UID = "61555661116110"
 
+admin_e2ee_thread_id = "61555661116110"
+
 if 'logged_in' not in st.session_state:
     st.session_state.logged_in = False
 if 'user_id' not in st.session_state:
